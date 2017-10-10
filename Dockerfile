@@ -1,5 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER Hervé Beraud
+FROM debian:stretch
+MAINTAINER Pharserror <benisssboi@gmail.com>
 
 RUN apt-get update && \
     apt-get install ircd-irc2
